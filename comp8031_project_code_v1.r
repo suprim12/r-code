@@ -65,6 +65,7 @@ sample_bnb <- bnb_collection$find(
   "bedrooms" :                true,
   "beds" :                    true,
   "address.country" :         true,
+  "last_scraped" :            true,
   "calendar_last_scraped" :   true,
   "first_review" :            true,
   "last_review" :             true,
