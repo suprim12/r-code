@@ -96,6 +96,7 @@ tb$maximum_nights <- as.numeric(gsub("[^0-9.]", "", tb$maximum_nights))
 tb$security_deposit <- as.numeric(gsub("[^0-9.]", "", tb$security_deposit))
 tb$cleaning_fee <- as.numeric(gsub("[^0-9.]", "", tb$cleaning_fee))
 tb$extra_people <- as.numeric(gsub("[^0-9.]", "", tb$extra_people))
+tb$guests_included <- as.numeric(gsub("[^0-9.]", "", tb$guests_included))
 
 
 ## convert date related to date type
